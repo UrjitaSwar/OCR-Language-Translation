@@ -40,7 +40,7 @@ def upload():
         # print(file_location)
 
         # OCR here
-        pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+        pytesseract.pytesseract.tesseract_cmd = r''C:\Program Files\Tesseract-OCR\\tesseract.exe'
 
         img = cv2.imread(file_location)
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
